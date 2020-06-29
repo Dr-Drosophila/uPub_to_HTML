@@ -1,0 +1,14 @@
+track name="CustomModel" description="Custom Gene Model for DyakCAF1" color=200,0,0 visibility=3 group="map" priority=10
+chr3R	GEP	CDS	26546648	26546741	.	-	0	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	CDS	26546328	26546584	.	-	2	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	CDS	26543956	26546266	.	-	0	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	CDS	26543739	26543896	.	-	2	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	CDS	26543548	26543677	.	-	0	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	CDS	26543141	26543490	.	-	2	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	stop_codon	26543138	26543140	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	exon	26546648	26546741	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	exon	26546328	26546584	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	exon	26543956	26546266	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	exon	26543739	26543896	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	exon	26543548	26543677	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
+chr3R	GEP	exon	26543141	26543490	.	-	.	gene_id "DyakCAF1_Tsc1"; transcript_id "DyakCAF1_Tsc1-PA";
