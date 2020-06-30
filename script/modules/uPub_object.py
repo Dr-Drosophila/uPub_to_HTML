@@ -122,5 +122,28 @@ class uPub_data(object):
 		return( author_data_formatted )
 
 	def get_image_caption( md_path ):
+		"""
+		- grabs the caption of the image from the MD
+		- returns a string
+		"""
 
-		return( "test_image_caption" )
+		image_caption = ""
+
+		with open( md_path, "r" ) as md_file:
+			for line in md_file:
+				if "**[Figure 1:]{.underline}**" in line:
+					image_caption = line.replace("**[Figure 1:]{.underline}**", "").strip()
+
+		image_caption = uPub_data.italicize_appropriate_terms( image_caption )
+		return( image_caption )
+
+	def italicize_appropriate_terms( janky_string ):
+		"""
+		- returns a string that has been appropriately italicized.
+		"""
+
+		italicized_text = "*this text will show up italicized*"
+
+		print( janky_string )
+
+		return( italicized_text )
