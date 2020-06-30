@@ -41,6 +41,8 @@ for model in publishable_models:
 	temp.path_to_image = img_plus_md[ "image_file_name" ]
 	temp.md_path = img_plus_md[ "md_path" ]
 
-	print( uPub_data.associate_all_data( temp ) )
+	temp.publication_data = uPub_data.associate_all_data( temp )
+	temp.title = temp.publication_data["title"]
+	temp.publication_data["image"] = temp.path_to_image
 
-	# temp.show()
+	temp.show()

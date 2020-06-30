@@ -52,7 +52,7 @@ class author( object ):
 		"""
 		from pprint import pprint as pprint
 
-		pprint( list_of_raw_author_data )
+		# pprint( list_of_raw_author_data )
 
 		list_names = list_of_raw_author_data[0].split(", ")
 		affiliations = list_of_raw_author_data[ 1 : list_of_raw_author_data.index("> ^Ω^ To whom correspondence should be addressed") ]
@@ -60,7 +60,6 @@ class author( object ):
 
 		author_list = []
 
-		pprint(list_names)
 		for person in list_names:
 			corresponding_author = False
 			auth = author( person )
@@ -79,9 +78,7 @@ class author( object ):
 			auth.affiliation = affiliations[num-1]
 			auth.contribution = author.convert_contributions_to_dict(contributions)[full_name]
 
-			auth.show()
 			author_list.append( auth )
-			break
 
 		return( author_list )
 
@@ -89,7 +86,6 @@ class author( object ):
 		"""
 		- converts the list of onctibutions to a dictionary of contributions for each author
 		"""
-		from pprint import pprint as pprint
 
 		author_line = True
 		contribution_line = False
@@ -98,13 +94,11 @@ class author( object ):
 		temp = "---||---".join( contributions )
 		temp = temp.replace( "---||----   ", ";" )
 		associated_contributions = temp.split("---||---")
-		pprint( associated_contributions )
 		for item in associated_contributions:
 			temp = item.split(";")
 			contris = temp[1:]
 			list_auths = temp[0].split(", ")
 			for auth in list_auths:
 				author_contribution[auth] = contris
-
 
 		return( author_contribution )

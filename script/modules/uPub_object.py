@@ -74,15 +74,22 @@ class uPub_data(object):
 		- INPUT:	uPub_data_object
 		- OUTPUT:	dictionary that houses publication_data
 		"""
+		from pprint import pprint as pprint
 
 		title = uPub_data.get_title( uPub_data_object.md_path )
 		authors = uPub_data.get_authors( uPub_data_object.md_path )
+		image_caption = uPub_data.get_image_caption( uPub_data_object.md_path )
 
-		return({
-			"title"		:	title 						,
-			"authors"	:	authors						,
-		})
-		return( "Finished running uPub_data.associate_all_data( uPub_data_object )" )
+		data = {
+			"title"				:	title 				,
+			"authors"			:	authors				,
+			"image_caption"		:	image_caption		,
+		}
+
+		# print( "DATA", end="\t" )
+		# pprint( data )
+		return( data )
+		# return( "Finished running uPub_data.associate_all_data( uPub_data_object )" )
 
 	def get_title( md_path ):
 		"""
@@ -112,5 +119,8 @@ class uPub_data(object):
 		author_data_raw = author.grab_author_data( md_path )
 		author_data_formatted = author.format_author_data( author_data_raw )
 
-
 		return( author_data_formatted )
+
+	def get_image_caption( md_path ):
+
+		return( "test_image_caption" )
