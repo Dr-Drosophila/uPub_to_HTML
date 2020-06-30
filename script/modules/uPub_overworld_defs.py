@@ -36,10 +36,10 @@ def get_paths_of_files( path ):
 				continue
 			elif "DOCX" in file_name:
 				if "UPUB" in file_name:
-					file_dict["uPub_doc"] = file_path
+					file_dict["uPub_path"] = file_path
 					continue
 				if "SUPP" in file_name:
-					file_dict["supp_doc"] = file_path
+					file_dict["supp_path"] = file_path
 					continue
 
 	return( file_dict )

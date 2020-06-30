@@ -34,9 +34,13 @@ for model in publishable_models:
 	temp.gff = file_paths["gff"]
 	temp.faa = file_paths["faa"]
 	temp.fna = file_paths["fna"]
-	temp.uPub_doc = file_paths["uPub_doc"]
-	temp.supp_doc = file_paths["supp_doc"]
+	temp.uPub_path = file_paths["uPub_path"]
+	temp.supp_path = file_paths["supp_path"]
 
-	print( uPub_data.docx_to_md( temp.uPub_doc ) )
+	img_plus_md = uPub_data.docx_to_md( temp.uPub_path )
+	temp.path_to_image = img_plus_md[ "image_file_name" ]
+	temp.md_path = img_plus_md[ "md_path" ]
 
-	temp.show()
+	print( uPub_data.associate_all_data( temp ) )
+
+	# temp.show()

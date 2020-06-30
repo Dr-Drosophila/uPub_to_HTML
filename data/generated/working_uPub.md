@@ -42,12 +42,12 @@ Potter, C.J., Huang, H., Xu, T., 2001. Drosophila Tsc1 Functions with Tsc2 to An
 
 **Funding:** This material is based upon work supported by the National Science Foundation under Grant No. IUSE-1915544 to LKR and the National Institute of General Medical Sciences of the National Institute of Health Award R25GM130517 to LKR. The Genomics Education Partnership is fully financed by Federal moneys. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
 
-Acknowledgements: Laura K. Reed, Wilson Leung, and Chinmay P. Rele, who created and maintains the GEP technological infrastructure. 
+Acknowledgements: Laura K. Reed, Wilson Leung, and Chinmay P. Rele, who created and maintains the GEP technological infrastructure.
 ------------------------------------------------------------------------------------------------------------------------------------
 
 **Author Contributions: **
 
-Bailey Lose, Abigail Myers, Chinmay P. Rele
+Bailey Lose and Abigail Myers and Chinmay P. Rele
 
 -   Formal analysis
 
@@ -55,7 +55,7 @@ Bailey Lose, Abigail Myers, Chinmay P. Rele
 
 -   Writing -- review & editing
 
-Savanah Fondse, Ian Alberts
+University of Evansville, California State University
 
 -   Formal analysis
 
@@ -71,7 +71,7 @@ Please select a tag below that best describes your submission
 
   -------------------- ----------------------------- ------------------
   New findings         Replication -- successful     Negative results
-  Methods & reagents   Replication -- unsuccessful   
+  Methods & reagents   Replication -- unsuccessful
   -------------------- ----------------------------- ------------------
 
 **You declare the following by submitting your article to microPublication Biology: "**I/we declare to the best of my/our knowledge that the experiment is reproducible; that the submission has been approved by all authors; that the submission has been approved by the laboratory\'s Principal Investigator, and that the results have not been published elsewhere. The author(s) declare no conflict of interest."
